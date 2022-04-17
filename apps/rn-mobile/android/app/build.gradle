@@ -79,7 +79,7 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    entryFile: "apps\rn-mobile\src\main.tsx",
+    entryFile: "apps/rn-mobile/src/main.tsx",
     enableHermes: false,  // clean and rebuild if changing
 ]
 
