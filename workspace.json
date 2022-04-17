@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "rn-mobile": "apps/rn-mobile",
+    "rn-mobile-e2e": "apps/rn-mobile-e2e"
+  }
+}
