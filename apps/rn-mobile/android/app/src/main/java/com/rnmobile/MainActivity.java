@@ -1,7 +1,8 @@
 package com.rnmobile;
 
 import com.facebook.react.ReactActivity;
-
+import expo.modules.ReactActivityDelegateWrapper;
+import com.facebook.react.ReactActivityDelegate;
 public class MainActivity extends ReactActivity {
 
   /**
@@ -12,4 +13,11 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "main";
   }
+
+  @Override
+  protected ReactActivityDelegate createReactActivityDelegate() {
+        return new ReactActivityDelegateWrapper(this,
+            new ReactActivityDelegate(this, getMainComponentName())
+            );
+      }
 }

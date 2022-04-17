@@ -9,6 +9,11 @@
     "react-native": "*",
     "react-native-config": "*",
     "react-native-svg": "*",
-    "@react-native-async-storage/async-storage": "*"
+    "@react-native-async-storage/async-storage": "*",
+    "expo": "*",
+    "expo-constants": "*",
+    "expo-auth-session": "*",
+    "expo-web-browser": "*",
+    "expo-random": "*"
   }
 }
